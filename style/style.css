@@ -165,8 +165,7 @@ header{
      color: grey;
  }
  /* footer */
- .footer{
-     /* max-width: 1140px; */
+ footer{
      margin: 80px auto;
      background: black;
  }
@@ -247,4 +246,12 @@ header{
      letter-spacing: 1px;
      background: rgb(20, 113, 130);
      color: whitesmoke;
+ }
+ .copright p{
+     text-align: center;
+     color: rgb(32, 102, 168);
+     padding: 10px;
+     font-size: 18px;
+     font-weight: 500;
+     background: whitesmoke;
  }
