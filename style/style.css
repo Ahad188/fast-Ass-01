@@ -169,7 +169,6 @@ header{
      /* max-width: 1140px; */
      margin: 80px auto;
      background: black;
-     border: 2px solid green;
  }
  .foot-contain{
      display: flex;
@@ -248,5 +247,4 @@ header{
      letter-spacing: 1px;
      background: rgb(20, 113, 130);
      color: whitesmoke;
-     
  }
