@@ -1,0 +1,252 @@
+*{
+     margin: 0;
+     padding: 0;
+}
+/* banner start */
+header{
+     background: url("../imgs/banner/banner3.png");
+     background-position: center;
+     background-size: cover;
+     height: 100vh;
+}
+.baner{
+  position: absolute;
+  top: 280px;
+  right: 190px;
+  width: 50%;
+  padding: 10px;
+}
+.baner .ban-title{
+     text-align: right;
+}
+.ban-title h1{
+     font-size: 50px;
+     font-weight: 900;
+     color: #fff;
+     line-height: 1.2;
+     margin-bottom: 20px;
+}
+.baner .ban-des{
+     text-align: right;
+}
+.ban-des p{
+     font-size: 20px;
+     color: #67bc83;
+     line-height: 1.3;
+     letter-spacing: 1px;
+}
+.pramiry-btn{
+     text-align: right;
+}
+.pramiry-btn{
+     margin-top: 30px;
+}
+.pramiry-btn a{
+     text-decoration: none;
+     color: lightseagreen;
+     background: #fff;
+     font-size: 30px;
+     margin-top: 20px;
+     padding: 10px 30px;
+     border-radius: 20px;
+}
+ /* main */
+ 
+.main{
+     max-width: 1140px;
+     margin: 80px auto;
+     background: whitesmoke;
+}
+.main-content{
+     display: flex;
+     gap: 15px;
+}
+.main-img{
+     width: 400px;
+}
+.main-img img{
+     width: 100%;
+}
+.main-des {
+     padding-top: 90px;
+     width: 500px;
+}
+.main-des h1{
+     text-align: left;
+     font-size: 35px;
+     font-weight: 600;
+     margin-bottom: 20px;
+}
+.main-des p{
+     margin-bottom: 30px;
+     font-size: 20px;
+}
+.itm{
+    margin-left: 35px;  
+}
+.itm ol li{
+     font-size: 18px;
+     padding: 5px 0;
+}
+/* plans */
+ .plan{
+     max-width: 1140px;
+     margin: 80px auto;
+     background: whitesmoke;
+ }
+.plan-title{
+     text-align: center;
+     font-size: 30px;
+     font-weight: 800;
+ }
+ .box-contain{
+     cursor: pointer;
+     margin-top: 40px;
+     display: flex;
+     justify-content: space-around;
+ }
+ .box{
+     text-align: center;
+     width: 250px;
+     padding: 10px 0;
+      
+ }
+ .box h2{
+     margin-top: 10px;
+ }
+ .box p{
+     color:grey;
+     margin-top: 10px;
+ }
+ /* self */
+ .self{
+     max-width: 1140px;
+     margin: 80px auto;
+     background: whitesmoke;
+ }
+ .self-moti{
+     background-image: linear-gradient(to right, rgba(168, 99, 99, 0), rgb(0, 191, 255)),url("../imgs/watch.png");
+     height: 300px;
+ }
+ .self-moti h3{
+     padding-top: 50px;
+    font-size: 29px;
+    text-align: center;
+    color: #fff;
+     font-weight: 700;
+ }
+ .self .pramiry-btn{
+     text-align: center;
+ }
+ /* motivation */
+ .motivation{
+     max-width: 1140px;
+     margin: 80px auto;
+     background: whitesmoke;
+ }
+ .moti-container{
+     margin-top: 50px;
+     display: flex;
+     justify-content: space-around;
+ }
+ .box-itm{
+     width: 290px;
+     padding: 10px;
+     text-align: center;
+     border: 2px solid black;
+     border-radius: 30px;
+     box-shadow: 10px 5px 5px gray;
+ }
+ .box-itm img{
+     width: 50px;
+ }
+ .box-itm p{
+     font-size: 22px;
+     color: grey;
+ }
+ /* footer */
+ .footer{
+     /* max-width: 1140px; */
+     margin: 80px auto;
+     background: black;
+     border: 2px solid green;
+ }
+ .foot-contain{
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     gap: 10px;
+     margin-top: 40px;
+ }
+ .f-ditals{
+     border: 2px solid black;
+     width: 500px;
+ }
+ .f-ditals h1{
+     font-size: 40px;
+     font-weight: 700;
+     margin-top: 30px;
+     color: #fff;
+ }
+ .email h3{
+     font-size: 20px;
+     color: #fff;
+     padding: 5px 0;
+ }
+ .media img{
+     font-size: 60px;
+     padding-left:10px;
+     margin-top: 20px;
+     
+ }
+ .media{
+     padding: 10px;
+ }
+ .f-ditals p{
+     padding-top: 10px;
+     font-size: 18px;
+     width: 300px;
+     letter-spacing: 1px;
+     margin-bottom: 20px;
+     color: whitesmoke;
+ }
+ .f-contack{
+     width: 500px;
+     height: 500px;
+ }
+ .f-contack h1{
+     margin-top: 95px;
+     margin-left: 30px;
+     color: whitesmoke;
+     font-size: 30px;
+     font-weight: 700;
+     margin-bottom: 20px;
+ }
+ .e-contack input{
+     margin-left: 30px;
+     width: 250px;
+     height: 50px;
+     border: 2px solid white;
+     background: transparent;
+     border-radius: 5px;
+     margin-bottom: 20px;
+ }
+ .e-contack input::placeholder{
+     letter-spacing: 1px;
+     padding: 5px 20px;
+     font-size: 14px;
+     color: #eee;
+ }
+ .f-contack button{
+     width: 150px;
+     margin-left: 30px;
+     height: 40px;
+     border: 2px solid rgb(20, 113, 130);
+     border-radius: 5px;
+     font-size: 20px;
+     padding: 5px 30px;
+     letter-spacing: 1px;
+     background: rgb(20, 113, 130);
+     color: whitesmoke;
+     
+ }
